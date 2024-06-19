@@ -1,0 +1,9 @@
+{
+    "fullname": "John Doe",
+    "email": "johndoe@example.com",
+    "password": "password123",
+    "isBanned": false,
+    "isVerified": true,
+    "userType": "viewer"
+  }
+  

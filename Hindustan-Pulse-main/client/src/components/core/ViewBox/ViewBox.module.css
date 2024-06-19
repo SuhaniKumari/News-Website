@@ -1,0 +1,39 @@
+.Viewbox {
+    background-color: #E3E8F1;
+    border-radius: 0.5rem;
+    display: flex;
+    padding: 0.5rem 1rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-self: stretch;
+    text-align: left;
+    gap: 0.25rem;
+}
+.Viewbox h2{
+    color: #000;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Viewbox>div:nth-child(2){
+    color: #A8A0A0;
+    font-size: 0.75rem;
+    gap: 0.2rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.Viewbox>div:nth-child(3){
+    align-self: stretch;
+    color: #000;
+    font-size: 0.875rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem 0.25rem;
+    font-weight: 600;
+}

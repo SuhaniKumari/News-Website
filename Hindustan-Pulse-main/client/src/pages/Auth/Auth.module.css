@@ -1,0 +1,70 @@
+.Verification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #5b83d1;
+    gap: 2rem;
+    position:relative
+}
+
+.Verification button {
+    display: flex;
+    font-size: 1.125rem;
+    color: #FFF;
+    font-weight: 700;
+    padding: 0.5rem 0.75rem;
+    border-radius: 1rem;
+    background: #8E9EBC;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.Verification button:hover {
+    background-color: #E3E8F1;
+    color: #5B83D1;
+}
+
+.Verification input {
+    border-radius: 0.5rem;
+    padding: 0.75rem 0.5rem;
+    background-color: #FFF;
+    border: none;
+    font-size: 1.125rem;
+    padding-right: 3rem;
+    width: 100%;
+    text-transform: none;
+}
+
+.Verification svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0.75rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.Verification h4 {
+    width: 100%;
+    text-align: left;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Verification>div>div {
+    position: relative;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background: #FFF;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border: 2px solid #5b83d1;
+}

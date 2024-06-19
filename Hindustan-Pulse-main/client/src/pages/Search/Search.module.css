@@ -1,0 +1,11 @@
+.Search{
+    width: 100%;
+    padding: 1rem 2rem;
+    flex-grow: 1;
+}
+
+.news{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}

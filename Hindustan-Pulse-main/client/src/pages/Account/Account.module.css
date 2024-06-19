@@ -1,0 +1,13 @@
+.Account{
+    display: flex;
+    padding: 0.5rem 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    flex-grow: 1;
+}
+.Account>div{
+    width: min(500px, 100%);
+}

@@ -1,0 +1,84 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    overflow: hidden;
+    padding: 1rem 2rem;
+    background: #E3E8F1;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+.top>div {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 1rem
+}
+
+.top select {
+    padding: 0.4rem 0.6rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    height: fit-content;
+    font-size: 0.85rem;
+}
+
+.top option {
+    padding: 0.2rem 0.4rem;
+}
+
+.top button {
+    padding: 0.6rem 0.8rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 200ms;
+    font-weight: 700;
+    color: aliceblue;
+    background-color: #5B83D1;
+}
+
+.top button:hover {
+    background-color: aliceblue;
+    color: #5B83D1;
+}
+
+.bottom {
+    display: flex;
+    overflow: hidden;
+    padding: 0.5rem 1rem;
+    background: #8E9DBC;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+}
+
+.bottom h3 {
+    color: #FFF;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+.bottom div{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+}
+.bottom span{
+    text-decoration: underline;
+    cursor: pointer;
+}

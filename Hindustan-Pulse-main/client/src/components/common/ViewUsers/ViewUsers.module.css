@@ -1,0 +1,63 @@
+.ViewUsers {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.25rem;
+    width: 100%;
+    background-color: #FFF;
+    border-radius: 1rem;
+    padding: 0.25rem;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.singleUser {
+    width: 100%;
+    display: flex;
+    border-radius: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.45rem 0.65rem;
+    background-color: #8e9ebc;
+    color: white;
+    transition: all 200ms;
+}
+
+.singleUser:hover {
+    color: #8e9ebc;
+    background-color: white;
+}
+
+.singleUser h2 {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    flex-grow: 1;
+    text-align: start;
+    text-transform: lowercase;
+    text-overflow: ellipsis;
+    width: 45%;
+    text-wrap: wrap;
+    overflow: hidden;
+}
+
+.singleUser h3 {
+    font-size: 0.85rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 20%;
+}
+
+.singleUser svg {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.singleUser div {
+    display: flex;
+    gap: 0.75rem;
+}

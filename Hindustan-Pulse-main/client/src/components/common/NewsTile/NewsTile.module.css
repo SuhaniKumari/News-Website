@@ -1,0 +1,65 @@
+.NewsTile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 100%;
+    background-color: #E3E8F1;
+    cursor: pointer;
+    border: 2px solid  #5B83D1;
+}
+
+.NewsTile img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.NewsTile>div {
+    display: flex;
+    overflow: hidden;
+    padding: 0.6rem 0.8rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-self: stretch;
+    border-top: 2px solid  #5B83D1;;
+}
+
+.NewsTile h2 {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    color: #000;
+    line-height: normal;
+    text-align: start;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300px;
+}
+
+.NewsTile h3 {
+    color: #A8A0A0;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: start;
+}
+
+.NewsTile h4 {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: start;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

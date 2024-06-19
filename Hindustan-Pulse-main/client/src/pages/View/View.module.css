@@ -1,0 +1,19 @@
+.View {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.View>div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+.View>div:nth-child(1)>div{
+    width: 100%;
+}

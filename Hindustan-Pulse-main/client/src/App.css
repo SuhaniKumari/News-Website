@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.App>div:nth-child(2){
+  flex-grow: 1;
+}
