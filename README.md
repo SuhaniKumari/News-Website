@@ -1,0 +1,3 @@
+This is news website. It is fully responsive and deployed web application.
+Technology used-> MERN Stack    Frontend -> React.js....  Backend -> Node.js, Express.js....
+Database-> Mongo Db
